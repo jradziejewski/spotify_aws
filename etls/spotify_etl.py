@@ -92,4 +92,4 @@ def load_data(data_df, path):
     """
     Load the transformed data to a CSV file.
     """
-    data_df.to_csv(path + ".csv", index=False)
+    data_df.to_csv(path, index=False)
